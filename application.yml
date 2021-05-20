@@ -3,6 +3,8 @@ microservice:
     endpoints:
       endpoint:
         uri: http://order-service/order/user/
+      endpoint2:
+        uri: http://order-service/order/deleteUser/  
   user-service:
     endpoints:
       endpoint:
